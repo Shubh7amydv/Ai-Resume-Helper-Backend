@@ -103,6 +103,8 @@ Create a `.env` file:
 ```env
 PORT=5000
 GEMINI_API_KEY=your_api_key_here
+MONGO_URI=
+JWT_SECRET=
 ```
 
 Run backend:
@@ -129,12 +131,8 @@ npm run dev
 | -------------- | --------------------- |
 | GEMINI_API_KEY | Google Gemini API Key |
 | PORT           | Backend server port   |
-
----
-
-## 📸 Screenshots
-
-*Add screenshots of your UI here (recommended for better presentation)*
+| MONGO_URI      | MongoData base        |
+|JWT_SECRET      | JWT secret key        |
 
 ---
 
@@ -148,11 +146,12 @@ npm run dev
 
 ## 🚧 Future Improvements
 
-* Resume parser (PDF/Doc upload)
-* User authentication & history tracking
+  
+* Resume PDF-Generation 
 * Mock interview simulation (real-time)
 * Voice-based interview practice
 * Advanced ATS scoring system
+
 
 ---
 
